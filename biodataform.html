@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+          body{
+            background-color: blanchedalmond;
+
+          }
+          h2{
+            color:red;
+            background-color: yellow;
+            width: 100vx;
+            text-align: center;
+          }
+          button{
+            background-color: rgb(14, 233, 14);
+          }
+
+        </style>
+    </head>
+    <body>
+        <title>Bio Data Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 20px;
+    }
+    input, textarea, select {
+      width: 300px;
+      padding: 5px;
+    }
+    #fg{
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>Bio Data Form</h2>
+  <form>
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="">--Select--</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" rows="4"></textarea>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="qualification">Educational Qualification:</label>
+    <input type="text" id="qualification" name="qualification">
+
+    <label for="skills">Skills:</label>
+    <textarea id="skills" name="skills" rows="3"></textarea>
+
+    <br><br>
+  <div id="fg">
+    <button>Submit</button>
+    </form>
+  </div>
+  </form>
+</body>
+</html>
